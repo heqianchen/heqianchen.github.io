@@ -143,15 +143,26 @@
 .nonxo{
 	
 	/*border: 1px solid rgba(0, 0, 0, .2 ); */
-	padding: .7em 2em .6em 2em;
-	color: rgba(0,0,0,1);
+	padding: .7em 2em .6em 3em;
+	color: rgba(0,0,0, 1);
+	opacity: .5;
+
 	/*text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;*/
+}
+.nonxo:hover{
+	opacity: 1;
+	-webkit-transition: 	all .3s ease;
+	   -moz-transition: 	all .3s ease;
+	   -o-transition: 		all .3s ease;
+	   -ms-transition: 		all .3s ease;
+	   transition: 			all .3s ease;
 }
 
 .logomask h5{
-	color: rgba(0, 0, 0, 1 );;
+
+	/*font-size: 1.5em;*/
+	color: rgba(0, 0, 0, .8 );
 	background: white; 
-	padding: .7em 2em .6em 2.2em;
 	/*border: 1px solid rgba(0, 0, 0, .2 );*/
 	font-weight:700;
 }
@@ -165,9 +176,10 @@
 
 	}
 	.logohover .logomask{
+
 		-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	   filter: alpha(opacity=0);
-	   opacity: 0;
+	   /* filter: alpha(opacity=0); */
+	   opacity: .5;
 	   background-color: rgba(0,0,0, 0);
 	   -webkit-transition: 	all .3s ease;
 	   -moz-transition: 	all .3s ease;
@@ -212,7 +224,6 @@
 		padding: .3em 1em .2em 1em;
 		opacity:1;
 		background-color: rgba(0,0,0, 1	);
-		color:white;
 		
 		transition: 			all .5s ease;
 			-webkit-transition: all .5s ease;
@@ -450,7 +461,7 @@
 
 
 
-	h8 {
+	.h8 {
 		letter-spacing: 3px;
 		display: inline;
 		z-index: 15;
@@ -471,8 +482,8 @@
 
 
 
-
-
+$('#wrapper').tubular({videoId: '0Bmhjf0rKe8'});
+$(page content wrapper element).tubular(options);
 
 
 
