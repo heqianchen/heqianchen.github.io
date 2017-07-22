@@ -59,7 +59,9 @@
 
 	<script src="./js/masonry-docs.min.js"></script>
 	<script src="./js/jquery-3.1.0.js"></script>
-
+	<script src="./js/jquery.tubular.1.0.js"></script>
+	<script src="./js/index.js"></script>
+	
 	<!-- fotorama.css & fotorama.js. -->
 	<link  href="./libs/fotorama-4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 	<script src="./libs/fotorama-4.6.4/fotorama.js"></script> <!-- 16 KB -->
@@ -101,7 +103,7 @@
 	
 
 <body>
-<div class="wrapper">
+<div id="wrapper">
 	<div class="TopBar">
 		
 			<div class="logo logohover">
@@ -147,7 +149,7 @@
 								 <p class="content_text">作品選自 2014 - 2017 <br/> LOGO 標誌和標準字設計
 							</p>
 
-						
+						<p><code>$('#wrapper').tubular({videoId: '0Bmhjf0rKe8'});</code></p>
 						
 
 				
@@ -206,6 +208,7 @@
 
 			  ga('create', 'UA-91791771-1', 'auto');
 			  ga('require', 'displayfeatures');
+
 			  ga('send', 'pageview');
 
 			  $('#wrapper').tubular({videoId: '0Bmhjf0rKe8'});
