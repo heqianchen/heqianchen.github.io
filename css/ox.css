@@ -486,6 +486,15 @@
 	  transition:         opacity 3s ease-in;
 }
 
+body {
+	  animation : fadein 3s;
+	  -webkit-transition: opacity 3s ease-in;
+	  -moz-transition:    opacity 3s ease-in;
+	  -o-transition:      opacity 3s ease-in;
+	  -ms-transition:     opacity 3s ease-in;
+	  transition:         opacity 3s ease-in;
+}
+
 
 .indeximg{
 	width: 50%;
