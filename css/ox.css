@@ -477,14 +477,6 @@
 }
 
 
-#wrapper{
-	  position: absolute;
-  width:960px;
-  height:900px;
-  z-index: 100;
-
-}
-
 .indeximg{
 	width: 50%;
 	margin: 0 auto;
