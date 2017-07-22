@@ -487,6 +487,7 @@
 }
 
 body {
+	background: black;
 	  animation : fadein 3s;
 	  -webkit-transition: opacity 3s ease-in;
 	  -moz-transition:    opacity 3s ease-in;
