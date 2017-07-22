@@ -1396,7 +1396,7 @@ two columns for large devices
 ------------------------- */
 
 .grid {
-  background: white;
+  /*background: white;*/
   width: 95%;
   margin: 0 auto;
 
