@@ -482,9 +482,13 @@
 
 
 
-$('#wrapper').tubular({videoId: '0Bmhjf0rKe8'});
-$(page content wrapper element).tubular(options);
 
+.wrapper{
+	position: absolute;
+	background: black;
+	width: 100%;
+	height: 100%;
+}
 
 
 .indeximg{
